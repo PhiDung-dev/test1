@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      label {
+        margin-right: 50px;
+      }
+      .thongTin {
+        display: flex;
+        width: 100%;
+      }
+      .lThongTin {
+        width: 180px;
+        margin-right: 30px;
+        margin-left: 20px;
+      }
+      .hoTen {
+        width: 100px;
+      }
+      select {
+        height: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="margin: auto; width: 50%">
+      <h1 style="color: rgb(155, 0, 0)">ĐĂNG KÝ XÉT TUYỂN</h1>
+      <div
+        style="
+          border: solid gray 1px;
+          border-radius: 10px;
+          padding-bottom: 20px;
+        "
+      >
+        <div
+          style="
+            background-color: rgb(165, 0, 0);
+            align-items: center;
+            height: 50px;
+            display: flex;
+            border-radius: 10px;
+          "
+        >
+          <h2 style="color: white">THÔNG TIN HỒ SƠ</h2>
+        </div>
+        <div>
+          <form style="margin-top: 40px; margin-right: 20px" action="">
+            <div class="thongTin">
+              <div class="lThongTin"><label for="">Họ và tên(*)</label></div>
+              <div>
+                <input class="hoTen" type="text" />
+                <input class="hoTen" type="text" />
+                <input class="hoTen" type="text" />
+                <input
+                  style="margin-left: 20px"
+                  type="radio"
+                  name="gioiTinh"
+                  id=""
+                />Nam <input type="radio" name="gioiTinh" id="" />Nữ
+              </div>
+            </div>
+            <br />
+            <div class="thongTin">
+              <div class="lThongTin"><label for="">Ngày sinh(*)</label></div>
+              <input type="text" name="" id="" />
+              <label style="margin-left: 30px; margin-right: 20px" for=""
+                >Số điện thoại(*)</label
+              >
+              <input type="number" name="" id="" />
+            </div>
+            <br />
+            <div class="thongTin">
+              <div class="lThongTin"><label for="">Email(*)</label></div>
+              <div>
+                <input style="width: 500px" type="email" name="" id="" />
+              </div>
+            </div>
+            <br />
+            <div class="thongTin">
+              <div class="lThongTin"><label for="">Facebook</label></div>
+              <div>
+                <input style="width: 500px" type="text" name="" id="" />
+              </div>
+              <br />
+            </div>
+            <br />
+            <div class="thongTin">
+              <div class="lThongTin">
+                <label style="width: 100%" for="">Địa chỉ liên lạc(*)</label>
+              </div>
+              <!-- lỗi -->
+              <div>
+                <input style="width: 100%" type="text" name="" id="" />
+                <br /><i style="font-size: small"
+                  >(nhập số nhà, tên đường, thôn, tổ dân phố, xã, quận huyện,
+                  tỉnh thành)</i
+                >
+              </div>
+            </div>
+            <br />
+            <div class="thongTin">
+              <div class="lThongTin"><label for="">Tỉnh thành(*)</label></div>
+              <div>
+                <select style="width: 160px" name="" id="">
+                  <option value="">Đà Nẵng</option>
+                  <option value="">Quảng Nam</option>
+                  <option value="">Quảng Ngãi</option>
+                </select>
+                <label style="margin-left: 30px; margin-right: 20px" for=""
+                  >Trường THPT(*)</label
+                >
+                <select style="width: 170px" name="" id="">
+                  <option value="">abc</option>
+                  <option value="">def</option>
+                  <option value="">xyz</option>
+                </select>
+                <br />
+                <i style="font-size: small"
+                  >(ghi chú: nếu là thí sinh tự do, bạn chọn trường THPT trước
+                  đó)</i
+                >
+              </div>
+            </div>
+            <br />
+            <div class="thongTin">
+              <div class="lThongTin"><label for="">Ngành đăng ký</label></div>
+              <select style="width: 500px" name="" id="">
+                <option value="">Công Nghệ Phần Mềm</option>
+                <option value="">Quản Trị Khách Sạn</option>
+                <option value="">Thiết Kế Đồ Hoạ</option>
+                <option value="">Ngôn Ngữ Trung</option>
+              </select>
+            </div>
+            <br />
+            <div class="thongTin">
+              <div class="lThongTin">
+                <label for="">Tập tin đính kèm</label>
+              </div>
+              <div>
+                <div><button>Up file</button></div>
+                <i style="font-size: small">(ghi chú)</i>
+              </div>
+            </div>
+            <br />
+            <div style="text-align: center">
+              <button
+                style="
+                  text-align: center;
+                  background-color: rgb(168, 0, 0);
+                  width: 200px;
+                  color: white;
+                  height: 30px;
+                  border-radius: 5px;
+                "
+                type="submit"
+              >
+                >ĐĂNG KÝ XÉT TUYỂN
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
